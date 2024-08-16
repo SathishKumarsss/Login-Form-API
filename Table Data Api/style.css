@@ -1,0 +1,177 @@
+/* heading start*/
+h1{
+   text-align: center;
+   }
+   /*  span heading start*/
+   .form-txt1{
+       text-align: center;
+       color: grey;
+       
+   }
+   .form-txt1 span{
+           margin-right: 15px;
+           font-size: 18px;
+   }
+   .form-h{
+       color:#3498DB;
+   border-bottom: 2px solid black;
+   text-align: left;
+   }
+   /* form conatiner  start*/
+   .cont{
+       max-width: 600px;
+       height: auto;
+       margin: 0 auto;
+       padding: 5px;
+       background-color:#E2DFD2;
+       box-shadow: rgba(149, 157, 165, 0.2)0px 8px 24px;
+     }
+     .form-main{
+       display: flex;
+       justify-content: space-around;
+       align-items: flex-start;
+       
+     }
+     .form-main div input,label{
+       display: block;
+       
+       
+     }
+   /* left input group start*/
+     .left-form .input-group{
+       
+       margin-top: 18px;
+       }
+   .left-form .input-group label{
+   font-size: 18px;
+   margin-bottom: 10px;
+   }
+   .left-form .input-group input{
+       padding: 10px;
+       
+       }
+       
+       .in{
+           width: 110%;
+           margin-bottom: 5px;
+       }
+       .sel{
+           width: 122%;
+           padding: 10px;
+       }
+       /* left input group end*/
+   
+       right input group start*/
+       .right-form .input-group{
+           margin-top: 18px;
+           }
+   .right-form .input-group label{
+       font-size: 18px;
+       margin-bottom: 10px;
+       }
+   .amb{
+       margin-top: 15px;
+   }
+   .input-select-main .input-select{
+       display: flex;
+       
+   }
+   .input-select-main .input-select label{
+       margin-left: 10px;
+       font-size: 18px;
+       
+   }
+   .right-form .input-group input{
+       
+       margin-bottom: 10px;
+       }
+       .in2{
+           width: 70%;
+       }
+       .right-form .input-group textarea{
+           padding: 30px;
+           margin-bottom: 10px;
+           width: 70%;
+           }
+           .right-form .input-group .button {
+               display: flex;
+               padding: 10px;
+           }
+           .right-form .input-group .button input {
+               font-size: 16px;
+               font-weight: bold;
+               padding: 10px;
+               margin-right: 10px;
+               background-color: green;
+               color: white;
+               border: none;
+               border-radius: 5px;
+   
+               }
+   
+               /* right input group end*/
+   
+   /* output section start*/
+   .result{
+       box-shadow: rgba(149, 157, 165, 0.2)0px 8px 24px;
+       background-color:#FFDEAD;
+   }
+   img{
+       margin-left: 10px;
+       width: 100px;
+       height: auto;
+       border-radius: 50px;
+   }
+   .result .student{
+       color:#3498DB;
+       border-bottom: 2px solid black;
+       padding: 10px;
+       
+   
+   }
+   .result h3{
+       color: orange;
+       margin-left: 10px;
+   }
+   .det{
+   margin-left: 10px;
+   }
+   .det summary{
+       border: none;
+   }
+   .lan{
+   margin-left: 10px;;
+   }
+   table{
+       width: 100%;
+       text-align: left;
+       border-collapse: collapse;
+       border: 2px solid black;
+      margin-top: 10px;
+      
+      
+   }
+   th{
+       background-color:#F0FFFF;
+   }
+   td{
+       background-color:#5D3FD3;
+       color: white;
+       font-weight: bold;
+   }
+   td,th{
+       padding: 10px;
+       border: 1px solid grey;
+   }
+   .dow a{
+       color: orange;
+       text-decoration: none;
+   }
+   
+   .con-txt-main .con-txt, p{
+       color: black;
+       margin-left: 10px;
+   }
+   
+   
+   /* output section end

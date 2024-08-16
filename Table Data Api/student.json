@@ -1,0 +1,46 @@
+[
+    {
+       "id": 1,
+       "PersonImage": "person-images/person-1.jpg",
+       "name": "Arun Kumar",
+       "email": "Arun1234@gmail.com",
+       "phone": 865345678,
+       "gender":"Male",
+       "birth": "1995-05-15",
+       "department":"Computer-Science",
+       "Languages":"English,Spanish",
+       "ambition":"To became a software developer",
+       "cgpa":9.2,
+       "profile":"Download"
+    },
+    {
+      "id": 2,
+      "PersonImage": "person-images/person-2.jpg",
+      "name": "Kumar",
+      "email": "kumar1234@gmail.com",
+      "phone": 865345678,
+      "gender":"Male",
+      "birth": "1995-05-15",
+      "department":"Pure-Science",
+      "Languages":"English,Spanish",
+      "ambition":"To became a pure-science Teacher",
+      "cgpa":9.8,
+      "profile":"Download"
+    },
+    {
+      "id": 3,
+       "PersonImage": "person-images/person-3.jpg",
+       "name": "Parthiban",
+       "email": "parthi1234@gmail.com",
+       "phone": 865345678,
+       "gender":"Male",
+       "birth": "1995-05-15",
+       "department":"Accounts",
+       "Languages":"English,Spanish",
+       "ambition":"To became a Best Accountist",
+       "cgpa":9.1,
+       "profile":"Download"
+    }
+    
+ ]
+ 

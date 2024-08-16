@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Heading start -->
+<h1>welcome to student Registration WebPage</h1>
+<div class="form-txt1">
+  <span>Registration</span>
+  <span>Details</span>
+  <span>Contact</span>
+</div>
+<!-- form heading start-->
+<h1 class="form-h">Students Details Form</h1>
+<div class="cont">
+  <!-- form start-->
+  <form action="">
+    <div class="form-main">
+      <!-- Left input group start-->
+      <div class="left-form">
+    <div class="input-group">
+      <label for="">Name:</label>
+      <input type="text" name="" id="" class="in">
+    </div>
+    <div class="input-group">
+      <label for="">Email:</label>
+      <input type="email" name="" id="" class="in">
+    </div>
+    <div class="input-group">
+<label for="">Phone:</label>
+<input type="tel"class="in">
+    </div>
+    <div class="input-group">
+      <label>Gender:</label>
+  <input type="radio">
+  <label>Male:</label>
+  <input type="radio">
+  <label>Female:</label>
+  <input type="radio">
+  </div>
+
+  <div class="input-group">
+    <label>Date of Birth:</label>
+    <input type="datetime-local" class="in">
+  </div>
+  <div class="input-group">
+    <label>Department:</label>
+    <select name="" id="" class="sel">
+      <option>Computer Science</option>
+      <option>Accounts</option>
+      <option>Pure Science</option>
+    </select>
+
+  </div>
+  </div>
+  <!-- Left input group end-->
+
+  <!-- Right input group start-->
+  <div class="right-form">
+    <div class="input-group">
+      <label for="">Language Known:</label>
+      <div class="input-select-main">
+     <div class="input-select">
+      <input type="checkbox">
+      <label for="">English</label>
+     </div>
+     <div class="input-select">
+      <input type="checkbox">
+      <label for="">Tamil</label>
+     </div>
+     <div class="input-select">
+      <input type="checkbox">
+      <label for="">Malayalam</label>
+     </div>
+     <div class="input-select">
+      <input type="checkbox">
+      <label for="">Telugu</label>
+     </div>
+     <div class="input-select">
+      <input type="checkbox">
+      <label for="">Kanadam</label>
+     </div>
+     <div class="input-select">
+      <input type="checkbox">
+      <label for="">Hindi</label>
+     </div>
+    </div>
+  </div>
+  <div class="input-group">
+    <label for="" class="amb">Ambition:</label>
+  <textarea></textarea>
+  </div>
+  <div class="input-group">
+    <label>Social Media URL:</label>
+  <input type="text" class="in2">
+  </div>
+  <div class="input-group">
+    <label>Profile (PDF Only):</label>
+    <input type="file" accept="image/*">  
+  </div>
+  <div class="input-group">
+    <label>Photos(Multiple): </label>
+  <input type="file" multiple>
+ </div>
+ <div class="input-group">
+  <label>CGPA (Out of 10):</label>
+  <input type="range">
+ </div>
+ <div class="input-group">
+  <div class="button">
+    <input type="reset">
+    <input type="submit">
+  </div>
+ </div>
+ <!-- Right input group end-->
+</div>
+</div>
+  </form>
+  <!-- Form end-->
+</div>
+
+    <table>
+        <thead>
+           <tr>
+              <th>Image</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Phone No</th>
+              <th>Gender</th>
+              <th>Date-of-Birth</th>
+              <th>Department</th>
+              <th>Languages-Know</th>
+              <th>Ambition</th>
+              <th>CGPA</th>
+              <th>Profile</th>
+           </tr>
+          
+        </thead>
+        <tbody id="data-output">
+        
+        </tbody>
+     </table> 
+  
+     
+</body>
+</html>
